@@ -1,5 +1,5 @@
 def prime?(number)
-  start = 4
+  start = 2
   if number > 1
     create_range = (start..number-1).to_a
     create_range.none? do |num_to_test|
