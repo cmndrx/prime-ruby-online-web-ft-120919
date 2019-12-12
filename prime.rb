@@ -1,8 +1,8 @@
 def prime?(number)
   start = 4
   if number > 1
-    range = (start..number-1).to_a
-    range.none? do |num_to_test|
+    create_range = (start..number-1).to_a
+    create_range.none? do |num_to_test|
     number % num_to_test == 0
     end
   else
